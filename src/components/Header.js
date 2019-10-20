@@ -7,7 +7,7 @@ const Header = ({titulo}) => (
     </nav>
 )
 
-Header.prototype = {
+Header.propTypes = {
     titulo: PropTypes.string.isRequired
 }
 

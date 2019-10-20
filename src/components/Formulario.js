@@ -38,7 +38,7 @@ class Formulario extends Component {
         )
     }
 }
-Formulario.prototype = {
+Formulario.propTypes = {
     consultarNoticias: PropTypes.func.isRequired   
 }
 

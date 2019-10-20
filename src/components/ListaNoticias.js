@@ -14,7 +14,7 @@ const ListaNoticias = ({noticias}) => {
     )
 }
 
-ListaNoticias.prototype = {
+ListaNoticias.propTypes = {
     noticias : PropTypes.array.isRequired
 }
 export default ListaNoticias;
